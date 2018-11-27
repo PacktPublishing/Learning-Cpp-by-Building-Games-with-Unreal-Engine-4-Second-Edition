@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Puzzle.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{229821D2-014B-41C0-A856-A0FAFA79D32F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Puzzle.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PuzzleEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{9E4320E1-EFC7-4664-A652-C94F2380DB3C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Puzzle">
+			<UniqueIdentifier>{65726ACF-1FF2-4E83-A5CE-6294A5B370B5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Puzzle\Puzzle.Build.cs">
+			<Filter>Source\Puzzle</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Puzzle\Puzzle.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\Puzzle.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Puzzle\PuzzleBlock.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\PuzzleBlock.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Puzzle\PuzzleBlockGrid.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\PuzzleBlockGrid.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Puzzle\PuzzleGameMode.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\PuzzleGameMode.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Puzzle\PuzzlePawn.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\PuzzlePawn.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Puzzle\PuzzlePlayerController.cpp">
+			<Filter>Source\Puzzle</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Puzzle\PuzzlePlayerController.h">
+			<Filter>Source\Puzzle</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
