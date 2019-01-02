@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugGame_Game|x64">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|Win32">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|x64">
+      <Configuration>Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|Win32">
+      <Configuration>Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|x64">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|Win32">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GoldenEgg\Spell.cpp" />
+    <ClCompile Include="..\..\Source\GoldenEgg\SpellForceField.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\Spell.h" />
+    <ClInclude Include="..\..\Source\GoldenEgg\SpellForceField.h" />
+    <None Include="..\..\GoldenEgg.uproject" />
+    <None Include="..\..\Source\GoldenEgg.Target.cs" />
+    <None Include="..\..\Source\GoldenEggEditor.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultInput.ini" />
+    <None Include="..\..\Config\desktop.ini" />
+    <ClCompile Include="..\..\Source\GoldenEgg\Avatar.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\Avatar.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\Bullet.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\Bullet.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\GameModeGoldenEgg.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\GameModeGoldenEgg.h" />
+    <None Include="..\..\Source\GoldenEgg\GoldenEgg.Build.cs" />
+    <ClCompile Include="..\..\Source\GoldenEgg\GoldenEgg.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\GoldenEgg.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\MeleeWeapon.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\MeleeWeapon.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\Monster.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\Monster.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\MyHUD.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\MyHUD.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\NPC.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\NPC.h" />
+    <ClCompile Include="..\..\Source\GoldenEgg\PickupItem.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\PickupItem.h" />
+    <None Include="..\..\Source\GoldenEgg\Resources\desktop.ini" />
+    <None Include="..\..\Source\GoldenEgg\Resources\Windows\desktop.ini" />
+    <None Include="..\..\Source\GoldenEgg\Resources\Windows\GoldenEgg.ico" />
+    <ResourceCompile Include="..\..\Source\GoldenEgg\Resources\Windows\GoldenEgg.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{275A4030-24E6-4D89-BC2C-C8940F667485}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>GoldenEgg</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" GoldenEgg Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Rebuild.bat" GoldenEgg Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Clean.bat" GoldenEgg Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\GoldenEgg-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" GoldenEggEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Rebuild.bat" GoldenEggEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Clean.bat" GoldenEggEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeCleanCommandLine>
+    <NMakeOutput>Y:\Prog\Unreal Engine\4.6\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" GoldenEgg Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Rebuild.bat" GoldenEgg Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Clean.bat" GoldenEgg Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\GoldenEgg.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" GoldenEggEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Rebuild.bat" GoldenEggEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Clean.bat" GoldenEggEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeCleanCommandLine>
+    <NMakeOutput>Y:\Prog\Unreal Engine\4.6\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Build.bat" GoldenEgg Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Rebuild.bat" GoldenEgg Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>"Y:\Prog\Unreal Engine\4.6\Engine\Build\BatchFiles\Clean.bat" GoldenEgg Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\GoldenEgg-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_GAME=1;IS_PROGRAM=0;UE_ROCKET=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;USE_LOGGING_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=1;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_ENGINE_DIRECTORY=../../../../Prog/Unreal Engine/4.6/Engine/;UE_PROJECT_NAME=GoldenEgg;ORIGINAL_FILE_NAME="GoldenEgg.exe";DEPRECATED_FORGAME=DEPRECATED;GOLDENEGG_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=1;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RUNTIME_PHYSICS_COOKING;WITH_BOX2D=1;WITH_RECAST=1;ENGINE_API=;JSON_API=;WITH_FREETYPE=1;SLATE_API=;INPUTCORE_API=;SLATECORE_API=;MESSAGING_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;AIMODULE_API=;VECTORVM_API=;DATABASESUPPORT_API=;UE_EDITOR=1;UNREALED_API=;BSPMODE_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;BLUEPRINTGRAPH_API=;XAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=;NIAGARAEDITOR_API=;GRAPHEDITOR_API=;INTROTUTORIALS_API=;LEVELEDITOR_API=;SETTINGS_API=;KISMET_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);Y:\Prog\Unreal Engine\4.6\Engine\Source;..\..\Source;..\Build\Win64\GoldenEgg\Inc\GoldenEgg;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Internationalization;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Async;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Concurrency;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Containers;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Delegates;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\GenericPlatform;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\HAL;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Logging;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Math;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Misc;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Modules;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\ProfilingDebugging;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Serialization;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Serialization\Json;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Serialization\Csv;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Stats;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Templates;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\UObject;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core\Public\Windows;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Core;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\CoreUObject;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public\Blueprint;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public\Misc;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public\Serialization;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public\Templates;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject\Public\UObject;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\CoreUObject;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Engine;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\AI;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\EdGraph;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\Features;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\Net;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\Slate;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\Tests;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\VisualLogger;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine\Public\AI\Navigation;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Json;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Json\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Json\Public\Dom;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Json\Public\Policies;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Json\Public\Serialization;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Json;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Slate;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Application;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Commands;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Docking;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Layout;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Notifications;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Styling;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Text;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Views;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Colors;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Docking;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Images;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Input;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Layout;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Text;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate\Public\Widgets\Views;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\InputCore\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\InputCore;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\InputCore\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\InputCore;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\SlateCore;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Animation;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Application;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Brushes;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Fonts;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Input;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Layout;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Logging;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Rendering;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Sound;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Styling;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Textures;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Types;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore\Public\Widgets;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SlateCore;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Slate;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Messaging;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Messaging\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Messaging\Public\Deprecated;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Messaging\Public\Helpers;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Messaging;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\RenderCore;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\RenderCore\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\RenderCore;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\RHI;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\RHI\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\RHI;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\ShaderCore;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\ShaderCore\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\ShaderCore;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\AssetRegistry;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\AssetRegistry\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\AssetRegistry;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineMessages\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\EngineMessages;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineMessages\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineMessages;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineSettings\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\EngineSettings;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineSettings\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\EngineSettings;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\SynthBenchmark;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\SynthBenchmark\Public;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Renderer;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Renderer\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Renderer;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\SynthBenchmark;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\AIModule\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\AIModule\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\AIModule;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\AIModule;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\VectorVM;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\VectorVM\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\VectorVM;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\DatabaseSupport;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\DatabaseSupport\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\DatabaseSupport;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Engine;..\..\Source\GoldenEgg;..\Build\Win64\Inc\GoldenEgg;Y:\Prog\Unreal Engine\4.6\Engine\Source\Programs\UnrealLightmass\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\UnrealEd;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Commandlets;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Dialogs;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Features;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Kismet2;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Layers;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Tests;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd\Public\Toolkits;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\BspMode;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\BspMode\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\BspMode;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Documentation;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Documentation\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Documentation;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Projects;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Projects\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Projects\Public\Interfaces;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Projects;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\SandboxFile;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SandboxFile\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\SandboxFile;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\EditorStyle;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\EditorStyle\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\EditorStyle\Public\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\EditorStyle\Public\Interfaces;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\EditorStyle;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\SourceControl;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\SourceControl\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\SourceControl\Public\Tests;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\SourceControl;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEdMessages\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\UnrealEdMessages;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEdMessages\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEdMessages;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\BlueprintGraph\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\BlueprintGraph;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\BlueprintGraph\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\BlueprintGraph;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\XAudio2;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Windows\XAudio2\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Runtime\Windows\XAudio2;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\UserFeedback;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UserFeedback\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UserFeedback;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\CollectionManager;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\CollectionManager\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\CollectionManager;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\NiagaraEditor;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\NiagaraEditor\Public;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\GraphEditor;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\GraphEditor\Public;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\IntroTutorials;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\IntroTutorials\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\IntroTutorials;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\GraphEditor;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\LevelEditor;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\LevelEditor\Public;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Settings;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\Settings\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Developer\Settings;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\LevelEditor;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\NiagaraEditor;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\UnrealEd;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Kismet\Classes;Y:\Prog\Unreal Engine\4.6\Engine\Intermediate\Build\Win64\Inc\Kismet;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Kismet\Public;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;Y:\Prog\Unreal Engine\4.6\Engine\Source\Editor\Kismet;Y:\Prog\VC\INCLUDE;Y:\Prog\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
