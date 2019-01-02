@@ -48,13 +48,7 @@ With the following software and hardware list you can run all code files present
 | All | Visual Studio Community 2017 (PC) | Windows 7 SP1 or higher |
 | All | XCode 10 | macOS 10.13.6 or later |
 | 3, 8-14 | Unreal Engine 4.19, 4.20, or 4.21 (tested with all 3) | Windows |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788476249_ColorImages.pdf).
 
@@ -63,36 +57,10 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Mastering Game Development with Unreal Engine 4 - Second Edition [[Packt]](https://www.packtpub.com/game-development/mastering-game-development-unreal-engine-4-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788991445 ) [[Amazon]](https://www.amazon.com/dp/1788991443)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
 ## Get to Know the Author
 **Sharan Volin**
  has been programming games for more than a decade. In the past, she worked on AAA and other titles for such companies as Sony Online Entertainment, Electronic Arts (Los Angeles), and 7 Studios (Activision). She primarily specialized in UI Programming. She also taught Game Programming for a year at the Art Institute of California. Sharan has both a BS in Computer Science (Games) and an MS in Computer Science from the University of Southern California, as well as degrees and certificates from other schools. Originally from New York, she lived in Los Angeles until she moved to Montreal, Canada with her 3 cats in early 2018 to work as a System Programmer at Behavior Interactive.
 
-****
-0
-
-****
-0
-
-****
-0
-
-****
-0
-
-## Other books by the authors
-[]()
-
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
