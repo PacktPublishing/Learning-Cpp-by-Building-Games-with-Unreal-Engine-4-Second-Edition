@@ -10,14 +10,11 @@ This is the code repository for [Learning C++ by Building Games with Unreal Engi
 Learning to program in C++ requires some serious motivation. Unreal Engine 4 (UE4) is a powerful C++ engine with a full range of features used to create top-notch, exciting games by AAA studios, making it the fun way to dive into learning C++17.
 
 This book covers the following exciting features:
-Learn the basics of C++ and also basic UE4 editing 
-Learn your way around the UE4 editor and the basics of using C++ and Blueprints within the engine 
-Learn how to use basic C++ containers and data structures to store your game data 
-Create players, NPCs, and monsters 
-Give information to users using the UE4 UMG UI system 
-Gain a basic understanding of how to use procedural programming to give your game more replay value 
-Learn how UE4 can help you build projects using the hottest new technologies, such as VR and AR 
-
+* Learn the basics of C++ and also basic UE4 editing 
+* Learn your way around the UE4 editor and the basics of using C++ and Blueprints within the engine 
+* Learn how to use basic C++ containers and data structures to store your game data 
+* Create players, NPCs, and monsters 
+* Give information to users using the UE4 UMG UI system 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788476247) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
