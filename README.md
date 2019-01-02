@@ -14,7 +14,8 @@ This book covers the following exciting features:
 * Learn your way around the UE4 editor and the basics of using C++ and Blueprints within the engine 
 * Learn how to use basic C++ containers and data structures to store your game data 
 * Create players, NPCs, and monsters 
-* Give information to users using the UE4 UMG UI system 
+* Give information to users using the UE4 UMG UI system
+
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788476247) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
