@@ -4,7 +4,7 @@
 
 This is the code repository for [Learning C++ by Building Games with Unreal Engine 4 - Second Edition](https://www.packtpub.com/game-development/learning-c-building-games-unreal-engine-4-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788476249 ), published by Packt.
 
-**A beginner's guide to learning 3D game development with C++ and UE4	**
+**A beginner's guide to learning 3D game development with C++ and UE4**
 
 ## What is this book about?
 Learning to program in C++ requires some serious motivation. Unreal Engine 4 (UE4) is a powerful C++ engine with a full range of features used to create top-notch, exciting games by AAA studios, making it the fun way to dive into learning C++17.
